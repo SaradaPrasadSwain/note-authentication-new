@@ -67,14 +67,33 @@ input {
 .noteBox {
     width: 300px;
     border: 3px solid rgb(150, 223, 4);
+    border-radius: 5px;
     height: 200px;
     background-color: white;
     margin: 3px;
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    margin: 10px;
+    width: auto;
+    height: 20px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(255, 1, 1);
 }
 
 .appendContainer {
     margin: 0 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .appendDiv {
@@ -88,3 +107,6 @@ input {
 #saveid:hover{
     background-color: lightgrey;
 }
+
+
+
